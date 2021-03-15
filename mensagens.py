@@ -37,3 +37,9 @@ def mostrar_opcao_concluir_tarefa():
     print ("Concluindo tarefa tarefa -> " + str(cd_tarefa))
     if cd_tarefa != MENU_INICIAL:
         db.concluir_tarefa(cd_tarefa)
+
+def mostrar_opcao_remover_tarefa():
+    cd_tarefa = int(input("Qual tarefa quer remover? digite o código => "))
+    print ("Removendo tarefa tarefa -> " + str(cd_tarefa))
+    if cd_tarefa != MENU_INICIAL:
+        db.remover_tarefa(cd_tarefa)
