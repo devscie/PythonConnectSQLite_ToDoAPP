@@ -33,3 +33,7 @@ def concluir_tarefa(cd_tarefa):
 def get_tarefas(): # retorna um cursor
     """ retorna a lista de tarefas cadastras """
     return conn.execute("select cd_tarefa, tarefa, concluido from tarefa")
+
+#def get_orderby_tarefas(): # retorna um cursor
+#    """ retorna a lista ordernada de tarefas cadastras """
+#    return conn.execute("select cd_tarefa, tarefa, concluido from tarefa order by concluido desc ")
