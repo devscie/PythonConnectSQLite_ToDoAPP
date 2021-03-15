@@ -11,6 +11,7 @@ A aplicação será um app lista de tarefas (To Do APP) em que poderemos adicion
 A interface da aplicação será o próprio terminal de linha de comando.
 
 
+
 Tabela tarefa 
 ___
 
