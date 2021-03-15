@@ -10,6 +10,7 @@ Este projeto consiste em criar uma aplicação CRUD (create, read, update and de
 A aplicação será um app lista de tarefas (To Do APP) em que poderemos adicionar, remover e alterar as tarefas de rotina que devem ser priorizadas.
 A interface da aplicação será o próprio terminal de linha de comando.
 
+
 Tabela tarefa 
 ___
 
